@@ -1,0 +1,10 @@
+# requirements.txt — sports_tracker project
+# Install with:  pip install -r requirements.txt
+
+ultralytics>=8.0.0          # YOLOv8 detection
+supervision>=0.18.0         # ByteTrack wrapper + annotation tools
+opencv-python>=4.8.0        # Video I/O and drawing
+numpy>=1.24.0               # Numerical operations
+matplotlib>=3.7.0           # Count plots
+lapx>=0.5.2                 # Linear Assignment Problem (required by ByteTrack)
+yt-dlp>=2024.1.1            # Video downloader (for fetching public sports videos)
